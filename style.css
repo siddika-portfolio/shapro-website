@@ -5,6 +5,9 @@
 :root {
   --white: #ffffff;
 }
+html{
+  font-size: 62.5%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +15,6 @@
 }
 p {
   font-family: "Roboto", sans-serif;
-  /* font-size: 18px; */
 }
 a {
   text-decoration: none;
@@ -20,32 +22,31 @@ a {
 }
 /* Header section style */
 .header-mail {
-  border-right: 2px solid #dcdcdc;
+  border-right: .2rem solid #dcdcdc;
 }
 .header-top-left p {
   font-family: "Jost", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: normal;
-  padding-top: 15px;
+  padding-top: 1.5rem;
   color: #323337;
 }
 .header-top-left i {
   background: linear-gradient(to right, #6809dc 0%, #1B6DF3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 16px;
-  padding-top: 15px;
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
 }
 .header-top-icon i {
-  font-size: 18px;
-  border-right: 2px solid #dcdcdc;
-  padding: 20px;
+  font-size: 1.8rem;
+  border-right: .2rem solid #dcdcdc;
+  padding: 2rem;
 }
 .btn-top {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  /* font-weight: semi-bold; */
-  padding: 16px 30px;
+  font-size: 1.6rem;
+  padding: 1.6rem 3rem;
   background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
   color: var(--white);
   text-transform: uppercase;
@@ -53,21 +54,21 @@ a {
 .top-bg {
   background-image: url("images/top-bg.jpg");
   color: var(--white);
-  height: 950px;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .navbar {
-  border-bottom: 1px solid gray;
-  padding: 20px;
+  border-bottom: .1rem solid gray;
+  padding: 2rem;
 }
 .nav-item {
-  padding: 15px;
+  padding: 1.5rem;
 }
 .nav-link {
   color: var(--white) !important;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "Jost", sans-serif;
   font-weight: bold;
 }
@@ -79,32 +80,32 @@ a {
 .search-icon i {
   background-color: var(--white);
   color: #000000;
-  padding: 15px;
+  padding: 1.5rem;
   border-radius: 50%;
 }
 
 /* Hero section style */
 .hero-left {
-  padding-top: 236px;
+  padding-top: 23.6rem;
 }
 .hero-left h6 {
-  width: 400px;
-  padding: 15px;
+  width: 40rem;
+  padding: 1.5rem;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: .3rem;
   background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
 }
 .hero-left h1 {
   font-family: "Jost", sans-serif;
-  font-size: 70px;
+  font-size: 7rem;
   font-weight: bold;
 }
 .btn-second {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 16px 30px;
   background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
@@ -112,41 +113,45 @@ a {
   text-transform: uppercase;
   border-radius: 50px;
 }
+.hero-left p{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+}
 
 /* Service section style*/
 #service-section {
   background-image: url("images/service-bg.png");
-  height: 790px;
+  height: auto;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 15rem;
 }
 .service-top-text h3 {
   font-family: "Jost", sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   color: #333333;
 }
 .service-top-text p {
   font-family: "Roboto", sans-serif;
   color: #747474;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
 }
 .card-title {
   font-family: "Jost", sans-serif;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .card-img-top {
-  width: 80px;
-  height: 78px;
+  width: 8rem;
+  height: 7.8rem;
 }
 .card-text {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
   color: #747474;
 }
 .service-card.active {
@@ -155,19 +160,20 @@ a {
 }
 .card-text-active {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
   color: var(--white);
 }
 .service-bottom-text {
   font-family: "Jost", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 /* About section style*/
 #about-section {
-  margin-top: 140px;
+  height: auto;
+  margin: 14rem;
 }
 .top-image {
   position: relative;
@@ -175,12 +181,12 @@ a {
 .bottom-image {
   position: absolute;
   left: -10%;
-  bottom: -10%;
+  bottom: -5%;
   opacity: 0.9;
 }
 .about-right h6 {
   font-family: "Jost", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: normal;
   background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
   -webkit-background-clip: text;
@@ -188,53 +194,92 @@ a {
 }
 .about-right h2 {
   font-family: "Jost", sans-serif;
-  font-size: 57px;
+  font-size: 5.7rem;
   font-weight: bold;
   color: #333333;
 }
 .about-right p {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #747474;
+}
+.count-text{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background-color: #f3f3f3;
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+#count-para{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 700;
+  padding-top: 1.5rem;
+  margin-left: 1rem;
+}
+.count-small{
+  font-weight: 700;
+  color: #6809dc;
+}
+.count-text {
+  position: relative;
+}
+.dot-icon {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: #ff006c;
+  font-size: 1.2rem;
+}
+.dot-icon-last{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: #ffae00;
+  font-size: 1.2rem;
 }
 
 /* Billing section style*/
 #billing-section {
   background-image: url("images/bil-bg.jpg");
-  height: 726px;
+  height: auto;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 154px;
+  margin: 15.4rem 0rem;
+  padding: 3rem 5rem;
 }
 .billing {
   color: var(--white);
-  padding-top: 100px;
+  padding: 15rem 3rem;
 }
 .billing-left h6 {
   font-family: "Jost", sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: normal;
   background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-top: 50px;
+  padding-top: 5rem;
 }
 .billing-left h2 {
   font-family: "Jost", sans-serif;
-  font-size: 55px;
+  font-size: 5.5rem;
   font-weight: bold;
   color: var(--white);
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 .billing-left p {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
   color: #d5d5d5;
 }
 .billing-image {
   position: relative;
+  height: auto;
 }
 .billing-card {
   position: absolute;
@@ -243,10 +288,12 @@ a {
 }
 #bill-card {
   background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
-  border-radius: 20px;
+  border-radius: 2rem;
+  width: 30rem;
 }
 .card-main-text {
   position: relative;
+  font-size: 1.6rem;
 }
 .price-btn {
   position: absolute;
@@ -255,10 +302,30 @@ a {
 }
 .btn-third {
   font-family: "Jost", sans-serif;
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 800;
   background-color: #282829;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
   color: var(--white);
+}
+
+/* Responsive css style */
+
+@media(max-width:998rem){
+  html{
+    font-size: 55%;
+  }
+  .about-right h6 {
+    padding-top: 1rem;
+  }
+}
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
+  }
+  .about-right h6 {
+    padding-top: 2rem;
+  }
 }

@@ -22,13 +22,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <!-- Google fonts link -->
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> -->
-    <!-- Custom css link -->
+    
     <link rel="stylesheet" href="style.css" />
     <title>Sharpo Website</title>
   </head>
@@ -109,7 +103,7 @@
         </section>
         <section id="hero-section" class="container">
           <div class="row">
-            <div class="col-md-9 hero-left">
+            <div class="col-lg-9 hero-left">
               <h6>We are shapro, a creative agency</h6>
               <h1>
                 Setup Your business <br />
@@ -124,7 +118,6 @@
                 <button class="btn btn-second">Contact us</button>
               </div>
             </div>
-            <div class="col-md-3"></div>
           </div>
         </section>
       </div>
@@ -143,8 +136,8 @@
               succeed!
             </p>
           </div>
-          <div class="card-deck text-center pt-5">
-            <div class="card p-4">
+          <div class="card-deck text-center pt-5 row">
+            <div class="card p-4 col-sm-12 col-lg-4">
               <div class="card-body">
                 <h5 class="card-title">Graphic Design</h5>
                 <img
@@ -158,7 +151,7 @@
                 </p>
               </div>
             </div>
-            <div class="card active p-4 service-card">
+            <div class="card active p-4 service-card col-sm-12 col-lg-4">
               <div class="card-body">
                 <h5 class="card-title">UI/UX & Interaction</h5>
                 <img
@@ -173,7 +166,7 @@
                 </p>
               </div>
             </div>
-            <div class="card p-4">
+            <div class="card p-4 col-sm-12 col-lg-4">
               <div class="card-body">
                 <h5 class="card-title">Animation & Motion</h5>
                 <img
@@ -199,8 +192,8 @@
 
       <section id="about-section">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 about-left">
+          <div class="row d-flex">
+            <div class="col-sm-12 col-lg-6 about-left">
               <div class="top-image">
                 <img src="images/about.jpg" alt="" />
               </div>
@@ -208,7 +201,7 @@
                 <img src="images/about2.png" alt="" />
               </div>
             </div>
-            <div class="col-md-6 about-right">
+            <div class="col-sm-12 col-lg-6 about-right pt-5">
               <h6>About Our Agency</h6>
               <h2>
                 Guess What <br />
@@ -220,24 +213,39 @@
                 your organisation’s growth. We do this by discerning the people
                 and that platforms where interests converge.
               </p>
-              <div class="about-bottom">
-                <img src="images/Vector-1.png" alt="">
-                <!-- <div class="row">
+              <div class="about-bottom mt-4">
+                <!-- <img src="images/Vector-1.png" alt=""> -->
+                <div class="row">
                   <div class="col-md-6 d-flex">
-                    <i class="fas fa-circle"></i>
-                    <p>0% Transaction Fee</p>
+                    <p class="mr-3 count-text">
+                      <small class="count-small"
+                        >12K+
+                        <i class="fas fa-circle dot-icon"></i>
+                      </small>
+                    </p>
+                    <p id="count-para">0% Transaction Fee</p>
                   </div>
                   <div class="col-md-6 d-flex">
-                    <i class="fas fa-circle"></i>
-                    <p>Events (Webinars)</p>
+                    <p class="mr-3 count-text">
+                      <small class="count-small"
+                        >1M+
+                        <i class="fas fa-circle dot-icon"></i>
+                      </small>
+                    </p>
+                    <p id="count-para">Events (Webinars)</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-6 d-flex">
-                    <i class="fas fa-circle"></i>
-                    <p>Setup Campaigns, Alert, Bots</p>
+                  <div class="col-md-7 d-flex mt-3">
+                    <p class="mr-3 count-text">
+                      <small class="count-small"
+                        >10K+
+                        <i class="fas fa-circle dot-icon-last"></i>
+                      </small>
+                    </p>
+                    <p id="count-para">Setup Campaigns, Alert, Bots</p>
                   </div>
-                </div> -->
+                </div>
               </div>
               <div class="similar-btn pt-5">
                 <button class="btn btn-second">Contact us</button>
@@ -250,7 +258,7 @@
       <section id="billing-section">
         <div class="container billing">
           <div class="row">
-            <div class="col-md-7 billing-left">
+            <div class="col-sm-12 col-lg-7 billing-left">
               <h6>Save 20% with Annual Billing</h6>
               <h2>
                 Promtion ads with into <br />
@@ -269,12 +277,12 @@
                 <button class="btn btn-second">Start Now</button>
               </div>
             </div>
-            <div class="col-md-5 billing-right">
+            <div class="col-sm-12 col-lg-5 billing-right pt-5">
               <div class="billing-image">
                 <img src="images/bil2.png" alt="" />
               </div>
               <div class="billing-card">
-                <div class="card pt-2" id="bill-card" style="width: 22rem;">
+                <div class="card pt-2" id="bill-card">
                   <div class="card-body">
                     <div class="price-btn">
                       <button href="#" class="btn btn-third">$300</button>
@@ -300,7 +308,7 @@
                         <i class="fas fa-plus-circle mr-3 mt-1"></i>
                         <p>25 Pipelines</p>
                       </div>
-                    </div>                                      
+                    </div>
                   </div>
                 </div>
               </div>
