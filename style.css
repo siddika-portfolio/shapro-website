@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap");
+
+
+:root {
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 18px; */
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+/* Header section style */
+.header-mail {
+  border-right: 2px solid #dcdcdc;
+}
+.header-top-left p {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 15px;
+  color: #323337;
+}
+.header-top-left i {
+  background: linear-gradient(to right, #6809dc 0%, #1B6DF3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  padding-top: 15px;
+}
+.header-top-icon i {
+  font-size: 18px;
+  border-right: 2px solid #dcdcdc;
+  padding: 20px;
+}
+.btn-top {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  /* font-weight: semi-bold; */
+  padding: 16px 30px;
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+  color: var(--white);
+  text-transform: uppercase;
+}
+.top-bg {
+  background-image: url("images/top-bg.jpg");
+  color: var(--white);
+  height: 950px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+.nav-item {
+  padding: 15px;
+}
+.nav-link {
+  color: var(--white) !important;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+}
+.search-icon i {
+  background-color: var(--white);
+  color: #000000;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* Hero section style */
+.hero-left {
+  padding-top: 236px;
+}
+.hero-left h6 {
+  width: 400px;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+}
+.hero-left h1 {
+  font-family: "Jost", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+.btn-second {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 16px 30px;
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+  color: var(--white);
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+/* Service section style*/
+#service-section {
+  background-image: url("images/service-bg.png");
+  height: 790px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+.service-top-text h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333333;
+}
+.service-top-text p {
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+  font-size: 17px;
+  line-height: 28px;
+}
+.card-title {
+  font-family: "Jost", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-img-top {
+  width: 80px;
+  height: 78px;
+}
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  color: #747474;
+}
+.service-card.active {
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+  color: var(--white);
+}
+.card-text-active {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  color: var(--white);
+}
+.service-bottom-text {
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* About section style*/
+#about-section {
+  margin-top: 140px;
+}
+.top-image {
+  position: relative;
+}
+.bottom-image {
+  position: absolute;
+  left: -10%;
+  bottom: -10%;
+  opacity: 0.9;
+}
+.about-right h6 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-right h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 57px;
+  font-weight: bold;
+  color: #333333;
+}
+.about-right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #747474;
+}
+
+/* Billing section style*/
+#billing-section {
+  background-image: url("images/bil-bg.jpg");
+  height: 726px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 154px;
+}
+.billing {
+  color: var(--white);
+  padding-top: 100px;
+}
+.billing-left h6 {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 50px;
+}
+.billing-left h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: var(--white);
+  padding-top: 10px;
+}
+.billing-left p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d5d5d5;
+}
+.billing-image {
+  position: relative;
+}
+.billing-card {
+  position: absolute;
+  right: -5%;
+  bottom: -15%;
+}
+#bill-card {
+  background: linear-gradient(to right, #6809dc 0%, #1b6df3 100%);
+  border-radius: 20px;
+}
+.card-main-text {
+  position: relative;
+}
+.price-btn {
+  position: absolute;
+  top: -10%;
+  right: 5%;
+}
+.btn-third {
+  font-family: "Jost", sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+  background-color: #282829;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: var(--white);
+}
